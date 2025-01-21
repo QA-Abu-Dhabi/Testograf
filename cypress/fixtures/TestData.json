@@ -1,0 +1,42 @@
+[
+  {
+  "name": "",
+  "email": "mari@mail.com",
+  "phone": "79990005522",
+  "purpose": "Другое",
+  "message": "Тестовое сообщение",
+  "expected": "nameFailed"
+  },
+  {
+  "name": "Mari",
+  "email": "",
+  "phone": "79990005522",
+  "purpose": "Другое",
+  "message": "Тестовое сообщение",
+  "expected": "emailFailed"
+  },
+  {
+  "name": "Mari",
+  "email": "mari@mail.com",
+  "phone": "79990005522",
+  "purpose": "",
+  "message": "Тестовое сообщение",
+  "expected": "purposeFailed"
+  },
+  {
+  "name": "Mari",
+  "email": "mari@mail.com",
+  "phone": "79990005522",
+  "purpose": "Другое",
+  "message": "",
+  "expected": "messageFailed"
+  },
+  {
+    "name": "Mari",
+    "email": "mari@mail.com",
+    "phone": "79990005522",
+    "purpose": "Другое",
+    "message": "Тестовое сообщение",
+    "expected": "passed"
+  }
+ ]
